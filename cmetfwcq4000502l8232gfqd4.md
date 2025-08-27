@@ -5,8 +5,7 @@ seoDescription: "A beginner's guide to Database Management Systems: Learn entiti
 datePublished: Wed Aug 27 2025 03:53:05 GMT+0000 (Coordinated Universal Time)
 cuid: cmetfwcq4000502l8232gfqd4
 slug: my-week-1-learning-journey-in-dbms
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755986981406/b5d5f2d2-393a-4354-9355-7ca610019fc8.webp
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1756266752878/898b1aa7-5ee2-484d-9bcf-a26e058989e9.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756267546076/3cd7a579-a5bc-4681-8fce-e8f530c8c212.png
 tags: dbms, programming-fundamentals, relational-database, er-model, learninginpublic, dbms-basics
 
 ---
