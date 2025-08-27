@@ -11,7 +11,7 @@ tags: dbms, programming-fundamentals, relational-database, er-model, learninginp
 
 ---
 
-## Introduction
+## **Introduction**
 
 This week, I started my journey into **Database Management Systems (DBMS)**. Instead of just keeping notes to myself, I’ve decided to share my **weekly learnings** here so that others who are also studying DBMS can benefit from the same resources.
 
@@ -21,7 +21,7 @@ Along with learning theory, I also tried implementing concepts through **ER diag
 
 ## What I Learned This Week
 
-### LEC-1: Introduction to DBMS
+### **LEC-1: Introduction to DBMS**
 
 * Difference between **Data and Information**
     
@@ -38,7 +38,7 @@ Along with learning theory, I also tried implementing concepts through **ER diag
 
 ---
 
-### LEC-2: DBMS Architecture
+### **LEC-2: DBMS Architecture**
 
 * **Three Schema Architecture** → Physical, Logical, and View levels
     
@@ -59,7 +59,7 @@ Along with learning theory, I also tried implementing concepts through **ER diag
 
 ---
 
-### LEC-3: Entity-Relationship (ER) Model
+### **LEC-3: Entity-Relationship (ER) Model**
 
 * What **entities** and **entity sets** are
     
@@ -78,7 +78,7 @@ Along with learning theory, I also tried implementing concepts through **ER diag
 
 ---
 
-### LEC-4: Extended ER (EER) Features
+### **LEC-4: Extended ER (EER) Features**
 
 * **Specialization** (Top-Down approach)
     
@@ -157,8 +157,6 @@ A banking system is one of the most popular examples used in DBMS.
     * Loan–Customer: A customer can take multiple loans (1:N).
         
 
----
-
 ### **Example 2: Online Delivery System ER Model**
 
 Think about Swiggy, Foodpanda, or Uber Eats.
@@ -198,8 +196,6 @@ Think about Swiggy, Foodpanda, or Uber Eats.
     * Employee–Delivery: Delivery person delivers multiple orders (1:N).
         
 
----
-
 ### **Example 3: University System ER Model**
 
 Universities are classic DBMS case studies.
@@ -238,8 +234,6 @@ Universities are classic DBMS case studies.
         
     * Exam–Student–Result: Aggregation (Result depends on both Exam and Student).
         
-
----
 
 ### **Example 4: Facebook ER Model**
 
@@ -292,8 +286,6 @@ Social networks are very rich examples.
     * Story–Reaction (M:N).
         
 
----
-
 ### **Example 5: Instagram ER Model**
 
 * **Entities:**
@@ -339,13 +331,11 @@ Social networks are very rich examples.
     * Reel–Like: Reels can have multiple likes (1:N).
         
 
----
-
-# ER Diagram → Relational Model Conversion Rules:
+## ER Diagram → Relational Model Conversion Rules:
 
 👉 Converting **ER design** into **Relational design** is a crucial step in building a database. Let’s break down how each ER concept maps into a relational schema.
 
-## 1\. Strong Entity
+### **1\. Strong Entity**
 
 * Each **strong entity** becomes an **individual table**.
     
@@ -359,9 +349,7 @@ Social networks are very rich examples.
 Example:  
 `Customer(Customer_ID [PK], Name, Email, Phone)`
 
----
-
-## 2\. Weak Entity
+### **2\. Weak Entity**
 
 * A **weak entity** cannot exist without its strong entity.
     
@@ -375,9 +363,7 @@ Example:
 Example:  
 `Order_Item(Order_ID [FK], Item_No, Quantity, PRIMARY KEY(Order_ID, Item_No))`
 
----
-
-## 3\. Single-Valued Attributes
+### **3\. Single-Valued Attributes**
 
 * Directly represented as **columns** in the table.
     
@@ -386,9 +372,7 @@ Example:
 
 Example: `Salary`, `Date_Of_Joining`
 
----
-
-## 4\. Composite Attributes
+### **4\. Composite Attributes**
 
 * Break into **atomic attributes** in the main table.
     
@@ -398,9 +382,7 @@ Example: `Salary`, `Date_Of_Joining`
 Example:  
 Instead of `Address`, store → `Street, City, State, Zip`.
 
----
-
-## 5\. Multivalued Attributes
+### **5\. Multivalued Attributes**
 
 * Stored in a **separate table**.
     
@@ -416,9 +398,7 @@ Example:
 * `Employee_Phone(Emp_ID [FK], Phone_No, PRIMARY KEY(Emp_ID, Phone_No))`
     
 
----
-
-## 6\. Derived Attributes
+### **6\. Derived Attributes**
 
 * Not stored in relations.
     
@@ -427,9 +407,7 @@ Example:
 
 Example: `Age` derived from `DOB`.
 
----
-
-## 7\. Generalization / Specialization
+### **7\. Generalization / Specialization**
 
 ### Method 1 (Default)
 
@@ -463,9 +441,7 @@ Example:
 
 **Drawback:** If overlapping/generalization is not complete → redundancy & missing data risk.
 
----
-
-## 8\. Aggregation
+### **8\. Aggregation**
 
 * Represented as a **relationship table**.
     
@@ -476,7 +452,7 @@ Example:
 Customer places Order → generates Payment.  
 `Order_Payment(Customer_ID [FK], Order_ID [FK], Payment_ID [FK], Payment_Mode, Amount)`
 
-## Resources I Used
+## **Resources I Used**
 
 Along with standard references, I especially followed **DBMS YouTube Series(** *CodeHelp-by babbar DBMS Series)*, which explained the concepts in a very simple and student-friendly way.his playlist explains DBMS concepts in a **simple and student-friendly way**.
 
@@ -491,9 +467,7 @@ Other helpful resources:
 * 🌐 TutorialsPoint DBMS Tutorial
     
 
----
-
-## Conclusion
+## **Conclusion**
 
 That’s a wrap for my **Week 1 of DBMS learning**.  
 The biggest takeaway for me was that **databases are not just about storage, but about meaningful organization of data into useful information**.
