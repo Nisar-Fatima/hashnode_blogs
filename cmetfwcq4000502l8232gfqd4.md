@@ -1,5 +1,5 @@
 ---
-title: "📊My Week 1 Learning Journey in DBMS"
+title: "My Week 1 Learning Journey in DBMS"
 seoTitle: "DBMS Week 1: My Learning Experience"
 seoDescription: "A beginner's guide to Database Management Systems: Learn entities, relationships, architectures, and ER model examples"
 datePublished: Wed Aug 27 2025 03:53:05 GMT+0000 (Coordinated Universal Time)
@@ -11,7 +11,7 @@ tags: dbms, programming-fundamentals, relational-database, er-model, learninginp
 
 ---
 
-## 📌 Introduction
+## Introduction
 
 This week, I started my journey into **Database Management Systems (DBMS)**. Instead of just keeping notes to myself, I’ve decided to share my **weekly learnings** here so that others who are also studying DBMS can benefit from the same resources.
 
@@ -19,9 +19,9 @@ Along with learning theory, I also tried implementing concepts through **ER diag
 
 ---
 
-## 📖 What I Learned This Week
+## What I Learned This Week
 
-### 🔹 LEC-1: Introduction to DBMS
+### LEC-1: Introduction to DBMS
 
 * Difference between **Data and Information**
     
@@ -38,7 +38,7 @@ Along with learning theory, I also tried implementing concepts through **ER diag
 
 ---
 
-### 🔹 LEC-2: DBMS Architecture
+### LEC-2: DBMS Architecture
 
 * **Three Schema Architecture** → Physical, Logical, and View levels
     
@@ -59,7 +59,7 @@ Along with learning theory, I also tried implementing concepts through **ER diag
 
 ---
 
-### 🔹 LEC-3: Entity-Relationship (ER) Model
+### LEC-3: Entity-Relationship (ER) Model
 
 * What **entities** and **entity sets** are
     
@@ -78,7 +78,7 @@ Along with learning theory, I also tried implementing concepts through **ER diag
 
 ---
 
-### 🔹 LEC-4: Extended ER (EER) Features
+### LEC-4: Extended ER (EER) Features
 
 * **Specialization** (Top-Down approach)
     
@@ -95,7 +95,7 @@ Along with learning theory, I also tried implementing concepts through **ER diag
 
 ---
 
-## **📖 Core Approach (Step by Step Guide + Examples)**
+## **Core Approach (Step by Step Guide + Examples)**
 
 1. **Identify Entity Sets** (e.g., Student, Customer, Post, Employee)
     
@@ -114,7 +114,7 @@ Along with learning theory, I also tried implementing concepts through **ER diag
     * Participation Constraints (Total / Partial).
         
 
-### ✅ **Example 1: Banking System ER Model**
+### **Example 1: Banking System ER Model**
 
 A banking system is one of the most popular examples used in DBMS.
 
@@ -159,7 +159,7 @@ A banking system is one of the most popular examples used in DBMS.
 
 ---
 
-### ✅ **Example 2: Online Delivery System ER Model**
+### **Example 2: Online Delivery System ER Model**
 
 Think about Swiggy, Foodpanda, or Uber Eats.
 
@@ -200,7 +200,7 @@ Think about Swiggy, Foodpanda, or Uber Eats.
 
 ---
 
-### ✅ **Example 3: University System ER Model**
+### **Example 3: University System ER Model**
 
 Universities are classic DBMS case studies.
 
@@ -241,7 +241,7 @@ Universities are classic DBMS case studies.
 
 ---
 
-### ✅ **Example 4: Facebook ER Model**
+### **Example 4: Facebook ER Model**
 
 Social networks are very rich examples.
 
@@ -294,7 +294,7 @@ Social networks are very rich examples.
 
 ---
 
-### ✅ **Example 5: Instagram ER Model**
+### **Example 5: Instagram ER Model**
 
 * **Entities:**
     
@@ -341,7 +341,7 @@ Social networks are very rich examples.
 
 ---
 
-# 📌 ER Diagram → Relational Model Conversion Rules:
+# ER Diagram → Relational Model Conversion Rules:
 
 👉 Converting **ER design** into **Relational design** is a crucial step in building a database. Let’s break down how each ER concept maps into a relational schema.
 
@@ -356,7 +356,7 @@ Social networks are very rich examples.
 * Foreign Keys (FKs) → Added to establish relationships with other entities.
     
 
-✅ Example:  
+Example:  
 `Customer(Customer_ID [PK], Name, Email, Phone)`
 
 ---
@@ -372,7 +372,7 @@ Social networks are very rich examples.
 * Composite PK = {Strong Entity PK (FK) + Discriminator Key}.
     
 
-✅ Example:  
+Example:  
 `Order_Item(Order_ID [FK], Item_No, Quantity, PRIMARY KEY(Order_ID, Item_No))`
 
 ---
@@ -384,7 +384,7 @@ Social networks are very rich examples.
 * No extra table is needed.
     
 
-✅ Example: `Salary`, `Date_Of_Joining`
+Example: `Salary`, `Date_Of_Joining`
 
 ---
 
@@ -395,7 +395,7 @@ Social networks are very rich examples.
 * Do not keep the composite attribute as a column.
     
 
-✅ Example:  
+Example:  
 Instead of `Address`, store → `Street, City, State, Zip`.
 
 ---
@@ -409,7 +409,7 @@ Instead of `Address`, store → `Street, City, State, Zip`.
 * PK of new table = {Entity\_PK + Multivalued Attribute}.
     
 
-✅ Example:
+Example:
 
 * `Employee(Emp_ID [PK], Name)`
     
@@ -425,7 +425,7 @@ Instead of `Address`, store → `Street, City, State, Zip`.
 * Calculated when needed.
     
 
-✅ Example: `Age` derived from `DOB`.
+Example: `Age` derived from `DOB`.
 
 ---
 
@@ -438,7 +438,7 @@ Instead of `Address`, store → `Street, City, State, Zip`.
 * Create separate **tables for each subtype**, including subtype attributes + supertype PK (as FK).
     
 
-✅ Example (Bank Account):
+Example (Bank Account):
 
 * `Account(Account_No [PK], Balance)`
     
@@ -454,14 +454,14 @@ Instead of `Address`, store → `Street, City, State, Zip`.
 * Create tables for subtypes including both supertype and subtype attributes.
     
 
-✅ Example:
+Example:
 
 * `Savings_Account(Account_No [PK], Balance, Interest_Rate)`
     
 * `Current_Account(Account_No [PK], Balance, Overdraft_Limit)`
     
 
-⚠️ **Drawback:** If overlapping/generalization is not complete → redundancy & missing data risk.
+**Drawback:** If overlapping/generalization is not complete → redundancy & missing data risk.
 
 ---
 
@@ -472,11 +472,11 @@ Instead of `Address`, store → `Street, City, State, Zip`.
 * Includes PKs of all participating entities + descriptive attributes.
     
 
-✅ Example:  
+Example:  
 Customer places Order → generates Payment.  
 `Order_Payment(Customer_ID [FK], Order_ID [FK], Payment_ID [FK], Payment_Mode, Amount)`
 
-## 📚 Resources I Used
+## Resources I Used
 
 Along with standard references, I especially followed **DBMS YouTube Series(** *CodeHelp-by babbar DBMS Series)*, which explained the concepts in a very simple and student-friendly way.his playlist explains DBMS concepts in a **simple and student-friendly way**.
 
@@ -493,11 +493,11 @@ Other helpful resources:
 
 ---
 
-## 📝 Conclusion
+## Conclusion
 
 That’s a wrap for my **Week 1 of DBMS learning**.  
 The biggest takeaway for me was that **databases are not just about storage, but about meaningful organization of data into useful information**.
 
 From next week, I’ll continue hands-on practice on **SQL Workbench**, where I’ll be writing and testing queries. I’ll also put together a list of **important SQL queries** that can help beginners get started easily.
 
-✨ Stay tuned for my updates — it’s going to be fun and practical! 🚀
+Stay tuned for my updates — it’s going to be fun and practical!
