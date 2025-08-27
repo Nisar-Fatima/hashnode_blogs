@@ -6,6 +6,7 @@ datePublished: Wed Aug 27 2025 03:53:05 GMT+0000 (Coordinated Universal Time)
 cuid: cmetfwcq4000502l8232gfqd4
 slug: my-week-1-learning-journey-in-dbms
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756267546076/3cd7a579-a5bc-4681-8fce-e8f530c8c212.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1756269507136/39458704-0df9-45a8-a905-53813e89c75e.png
 tags: dbms, programming-fundamentals, relational-database, er-model, learninginpublic, dbms-basics
 
 ---
