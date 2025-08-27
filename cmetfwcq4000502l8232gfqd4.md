@@ -340,7 +340,7 @@ Social networks are very rich examples.
 
 ---
 
-# **Approach to convert ER to Relational Model**
+# 📌 ER Diagram → Relational Model Conversion Rules:
 
 👉 Converting **ER design** into **Relational design** is a crucial step in building a database. Let’s break down how each ER concept maps into a relational schema.
 
