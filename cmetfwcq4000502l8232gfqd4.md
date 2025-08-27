@@ -339,11 +339,11 @@ Social networks are very rich examples.
     * Reel–Like: Reels can have multiple likes (1:N).
         
 
+---
+
 # **Approach to convert ER to Relational Model**
 
 👉 Converting **ER design** into **Relational design** is a crucial step in building a database. Let’s break down how each ER concept maps into a relational schema.
-
----
 
 ## 1\. Strong Entity
 
