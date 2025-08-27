@@ -76,8 +76,6 @@ Along with learning theory, I also tried implementing concepts through **ER diag
 * %[https://youtu.be/kMHJhhIx5k4?si=6w34KnD9DO0AV2o8] 
     
 
-👉 I also practiced by creating some **ER diagrams** to understand how entities and relationships are represented in real-world cases.
-
 ---
 
 ### 🔹 LEC-4: Extended ER (EER) Features
