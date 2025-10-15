@@ -1,5 +1,5 @@
 ---
-title: "My Week 1 Learning Journey in DBMS"
+title: "Database Management System"
 seoTitle: "DBMS Week 1: My Learning Experience"
 seoDescription: "A beginner's guide to Database Management Systems: Learn entities, relationships, architectures, and ER model examples"
 datePublished: Wed Aug 27 2025 03:53:05 GMT+0000 (Coordinated Universal Time)
