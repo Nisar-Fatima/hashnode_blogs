@@ -55,7 +55,7 @@ Each answer includes tested queries and alternate approaches where relevant — 
 
 ## SQL Practice Question Set (50)
 
-Below is the complete **question set from CodeHelp - by Babba**[**r**](https://www.youtube.com/@CodeHelp) **SQL practice video**.  
+Below is the complete **question set from CodeHelp - by Babbar** **SQL practice video**.  
 These questions cover key interview topics like filtering, joins, subqueries, aggregation, string operations, and more.
 
 Try solving them yourself first before viewing the solutions 👇
